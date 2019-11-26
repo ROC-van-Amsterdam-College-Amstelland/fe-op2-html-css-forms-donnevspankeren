@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+main{
+    border: 2px solid black;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1{
+    color: green;
+    font-family: cursive;
+}
+
+input{
+    width: 150px;
+    height: 20px;
+
+}
+
+#voornaam{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#achternaam{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#geboortedatum{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#nickname{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#email{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#telefoon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+button{
+    background-color: green;
+    box-shadow: 3px 5px black;
+
+}
